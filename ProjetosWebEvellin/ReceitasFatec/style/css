@@ -1,0 +1,38 @@
+@charset "UTF-8";
+body{
+    font-family: 'Poppins', sans-serif;;
+    text-align: center;
+    margin: 2% 25% 2% 25%;
+    border: solid black 1px;
+}
+h1 {
+    display: inline-block;
+    color: #fd6c23;
+}
+h3.listas{
+    padding:1.5% 0% 1.5% 0%;
+    font-size: small;
+    background-color: #f0f0f0;
+
+}
+table{
+    display: contents;
+    margin: 2% 0% 0% 0%;
+    width: 100%;;
+    background-color: #f0f0f0;
+}
+th,tr{
+  width: 60%;  
+  background-color: #f0f0f0;
+    
+}
+h2#ingredientes{
+    text-align: center;
+    color: #fd6c23; 
+    width: 0%; 
+    margin: 0% 20% 0.5% 0%;
+
+}
+ul,li{
+    text-align: justify;
+}

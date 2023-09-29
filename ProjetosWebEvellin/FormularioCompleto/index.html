@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulário Fatec </title>
+</head>
+<body>
+    <h2> Roupas BAW </h2>
+    <h3> Cadastro </h3>
+    <form>
+        <fieldset>
+            <legend> Dados Pessoais </legend>
+            <label for="name"> Nome </label>
+            <input type="text" 
+                    id="name"
+                    name="nomeCliente"
+                    maxlength="30"
+                    minlength="10"
+                    size="50"
+                    required>
+            <label for="Senha"> Senha </label>
+            <input type="password"
+                    id="Senha"
+                    name="password"
+                    maxlength="12"
+                    placeholder="Senha com letras e números">
+            
+            <input type="radio" name="Estado Civil" id="Estado Civil" value="Solteiro">
+            <label for="Estado civil"> Solteiro </label>
+
+            <input type="radio" name="Estado Civil" id="Estado Civil">
+            <label for="Estado civil"> Casado </label>
+
+            <input type="radio" name="Estado Civil" id="Estado Civil">
+            <label for="Estado civil"> Viúvo </label>
+            
+        </fieldset>
+        <fieldset>
+            <legend> Dados de Cobrança </legend>
+            <label for="cidade"> Cidade </label>
+            <input type="text"
+                    id="cidade"
+                    value="Votorantim"
+                    disabled>
+            
+            <label for="uf"> UF </label>
+            <select name="uf" id="uf">
+                <optgroup label = "Região Norte">
+                    <option value="Amazonas">AM</option>
+                    <option value="Acre">AC</option>
+                    <option value="Roraima">RO</option>
+                </optgroup>
+                <optgroup label="Região Sul">
+                    <option value="Rio Grande do Sul">RS</option>
+                    <option value="Santa Catarina">SC</option>
+                    <option value="Paraná">PR</option>
+                </optgroup>
+            </select>
+
+            <label for="radio"> Cor Preferida </label>
+            <input type="color" name="Cor Preferida" id="Cor Preferida">
+
+            <input type="checkbox" name =Express id="envio">
+            <label for="envio">Express</label>
+
+            <label for="Grau de Satisfação">Grau de Satisfação</label>
+            <input type="range" min="2" max="10" step="2" name="Grau de Satisfação" id="Grau de Satisfação">
+
+        </fieldset>
+        <button> Cadastrar </button>
+        <input type="submit" value="Cadastrar">
+
+
+    </form>
+    
+</body>
+</html>

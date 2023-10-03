@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exercicio 01 </title>
+</head>
+
+<body>
+    <input type="text" placeholder="Insira o salário" id="salario">
+
+    <input type="text" placeholder="Insira o percentual de aumento" id="porcentagem">
+
+    <p id="resultado"></p>
+    <input type="button" value="Calcular" id="btnCalcular" onclick="calcular()">
+
+    <script>
+        function calcular() {
+            let salario = 0.00;
+            salario = parseFloat(document.getElementById('salario').value);
+
+            // poderia usar o number no lugar parseFloat para converter para numero a procentagem -->
+            let porcentagem = 0.0;
+            porcentagem = parseFloat(document.getElementById('porcentagem').value);
+
+            let novoSal = 0.00;
+            resultado = salario * porcentagem + salario;
+
+            document.getElementById('resultado').innerText = `O resultado do novo salário é ${resultado}`;
+
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>

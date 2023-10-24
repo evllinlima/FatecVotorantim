@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacotes de Viagens</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h2> Viagem FatecVot</h2>
+    <!-- Para deixar visivel o input é necessário usar o label ou o placeholder -->
+    <label for="nome"> Nome: </label>
+    <input type="text" name="nomeCliente" id="nome">
+    <label> Pacotes: </label>
+    <!-- O selecionar de bolinha "radio" faz com que seja somente uma seleção. No value pode definir qualquer valor, ou seja, é aquilo que eu quero guardar, seja o valor, destino, etc, qualquer conteudo. É sempre string, mas se quiser numero, é necessário tranformar em number-->
+    <input type="radio" name="pacotes" value="1000"><label> Pacote 1 </label>
+    <input type="radio" name="pacotes" value="2000"><label> Pacote 2 </label>
+    <input type="radio" name="pacotes" value="3000"><label> Pacote 3 </label>
+
+    <br>
+    <!-- de preferneciar para utilizar verbos e SEMPRE fechar e abri parenteses -->
+    <button onclick="calcularDesconto()"> Calcular Pacote com Desconto </button>
+
+</body>
+
+</html>

@@ -20,8 +20,18 @@
     <input type="radio" name="pacotes" value="3000"><label> Pacote 3 </label>
 
     <br>
-    <!-- de preferneciar para utilizar verbos e SEMPRE fechar e abri parenteses -->
-    <button onclick="calcularDesconto()"> Calcular Pacote com Desconto </button>
+    <label> Adicionais: </label>
+    <input type="checkbox" name="adicionais" value="300"><label> Alimentação </label>
+    <input type="checkbox" name="adicionais" value="150"><label> Veículo </label>
+    <input type="checkbox" name="adicionais" value="50"><label> Translado </label>
+
+    <br>
+    <!-- de prefernecia para utilizar verbos e SEMPRE fechar e abri parenteses -->
+    <button onclick="calcularTotalViagem()"> Calcular Total Viagem </button>
+
+    <h3 id="resutado"> Resultado </h3>
+    <label for="resultados"> O resultados total da viagem é de R$ , sendo R$ do pacote da viagem e R$ dos adicionais! </label>
+
 
 </body>
 

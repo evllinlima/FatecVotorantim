@@ -10,10 +10,8 @@ function calcularTotalViagem() {
 function calcularAdicionais() {
     totalAdicionais = 0;
     let adicionais = document.querySelectorAll("input[name='adicionais']");
-    console.log(adicionais);
     for (let i = 0; i < adicionais.length; i++) {
         if (adicionais[i].checked) {
-            console.log(adicionais[i].value)
             totalAdicionais = totalAdicionais + Number(adicionais[i].value);
             document.getElementById
         }

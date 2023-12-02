@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Prova Prática </title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <h2> Cadastro </h2>
+            <label for="nome"> Nome: </label>
+            <input type="text" placeholder="Informe o nome">
+            <label for="senha"> Senha: </label>
+            <input type="password">
+        </div>
+        <br>
+        <div>
+            <label for="cep"> CEP: </label>
+            <input type="number" id="cep">
+        </div>
+        <br>
+        <div>
+            <label for="cidade"> Cidade: </label>
+            <input type="text">
+        </div>
+        <br>
+        <div>
+            <label for="idade"> Idade: </label>
+            <input type="number" id="idade">
+        </div>
+        <br>
+        <button onclick="resultados()" id="resultado"> Enviar </button>
+        <p></p>
+        <br>
+        <div>
+            <label for="termos"> Aceita os Termos...: </label>
+            <input type="radio"><label for="sim"> Sim </label>
+            <input type="radio"><label for="nao"> Não </label>
+        </div>
+    </form>
+
+    <script>
+
+        idade = document.getElementById("idade").value;
+        resultado = [idade] + 30;
+
+
+        alert("Cadastrado com sucesso")
+
+
+        cep = document.getElementById("cep").value;
+        let cep = document.getElementById("resultado");
+        cep.addEventListener('click', async function () {
+            document.getElementById('resultado').innerText = "";
+            const api = `https://viacep.com.br/ws/${cep}/json/`;
+
+            let cep = await fetch(api);
+            let dados = await resultado.json()
+            let resultadoApi = await fetch(api)
+
+            if (dados == '')
+            alert("Informe o CEP");
+        else (dados == "")
+        alert("Cadastrado com sucesso")
+
+        })
+    </script>
+</body>
+
+</html>

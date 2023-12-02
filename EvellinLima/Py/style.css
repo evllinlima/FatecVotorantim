@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(236, 215, 146);
+}
+
+.hamburgueres {
+    width: 200px;
+    border-radius: 60px;
+    border: solid orange;
+}
+
+.inicio {
+    display: inline-block;
+}
+
+input,
+label {
+    display: flex;
+}
+
+.final {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.pedidoFinal {
+    background-color: orange;
+    height: 200px;
+    margin: 30px;
+}
+
+.total {
+    justify-content: space-around;
+    margin: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hamb {
+    display: flex;
+    justify-content: center;
+}
+
+.adicionais {
+    display: flex;
+}

@@ -1,0 +1,74 @@
+/* Color Theme Swatches in Hex */
+.Data-technology-background.-Abstract-background.-Connecting-dots-and-lines-on-dark-background.-3D-rendering.-4k.-1-hex {
+    color: #0367A6;
+}
+
+.Data-technology-background.-Abstract-background.-Connecting-dots-and-lines-on-dark-background.-3D-rendering.-4k.-2-hex {
+    color: #024873;
+}
+
+.Data-technology-background.-Abstract-background.-Connecting-dots-and-lines-on-dark-background.-3D-rendering.-4k.-3-hex {
+    color: #012840;
+}
+
+.Data-technology-background.-Abstract-background.-Connecting-dots-and-lines-on-dark-background.-3D-rendering.-4k.-4-hex {
+    color: #41D2F2;
+}
+
+.Data-technology-background.-Abstract-background.-Connecting-dots-and-lines-on-dark-background.-3D-rendering.-4k.-5-hex {
+    color: #0D0D0D;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.rdp{    
+    display: flex;
+    flex-direction: row;
+    background-color: #012840;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.logoRodape{
+    width: 80%;
+    height: auto;
+}
+.whats{
+    width: 10%;
+    height: auto;
+    margin-top: 30px;
+}
+.rodape{
+   text-align: center;
+   color: white;
+   margin-bottom: 20px;
+   padding: 0;
+}
+
+footer p{
+    text-align: center;
+    background-color: #024873;
+    margin: 0;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+@media (max-width:  760px){
+    .logoRodape{
+        width: 30%;
+        height: auto;
+        margin-top: 200px;
+    }
+    
+}

@@ -1,0 +1,49 @@
+/* Color Theme Swatches in Hex */
+.Data-technology-background.-Abstract-background.-Connecting-dots-and-lines-on-dark-background.-3D-rendering.-4k.-1-hex {
+    color: #0367A6;
+}
+
+.Data-technology-background.-Abstract-background.-Connecting-dots-and-lines-on-dark-background.-3D-rendering.-4k.-2-hex {
+    color: #024873;
+}
+
+.Data-technology-background.-Abstract-background.-Connecting-dots-and-lines-on-dark-background.-3D-rendering.-4k.-3-hex {
+    color: #012840;
+}
+
+.Data-technology-background.-Abstract-background.-Connecting-dots-and-lines-on-dark-background.-3D-rendering.-4k.-4-hex {
+    color: #41D2F2;
+}
+
+.Data-technology-background.-Abstract-background.-Connecting-dots-and-lines-on-dark-background.-3D-rendering.-4k.-5-hex {
+    color: #0D0D0D;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    width: 100px;
+    width: 100px;
+}
+.cabecalho{
+    background-color: #024873;
+}
+.botao{
+    color: white;
+    background-color: #0367a6;
+    border-radius: 50px;
+    border: 0px;
+    width: 90px;
+}
+.pesq{
+    border-radius: 50px;
+}
+.nav{
+    align-items: center;
+}
+.border{
+    border-bottom: var(--bs-border-width) var(--bs-border-style) #024873!important;
+}
+
+

@@ -1,0 +1,107 @@
+/* Color Theme Swatches in Hex */
+.Data-technology-background.-Abstract-background.-Connecting-dots-and-lines-on-dark-background.-3D-rendering.-4k.-1-hex {
+    color: #0367A6;
+}
+
+.Data-technology-background.-Abstract-background.-Connecting-dots-and-lines-on-dark-background.-3D-rendering.-4k.-2-hex {
+    color: #024873;
+}
+
+.Data-technology-background.-Abstract-background.-Connecting-dots-and-lines-on-dark-background.-3D-rendering.-4k.-3-hex {
+    color: #012840;
+}
+
+.Data-technology-background.-Abstract-background.-Connecting-dots-and-lines-on-dark-background.-3D-rendering.-4k.-4-hex {
+    color: #41D2F2;
+}
+
+.Data-technology-background.-Abstract-background.-Connecting-dots-and-lines-on-dark-background.-3D-rendering.-4k.-5-hex {
+    color: #0D0D0D;
+}
+
+main,
+body {
+    background-color: #012840;
+    font-family: 'Roboto', sans-serif;
+}
+
+.forumPreview {
+    color: #FFFFFF;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.forumPreviewTitle {
+    text-align: center;
+}
+
+.sectionUser {
+    background-color: #024873;
+    padding-left: 10px;
+    align-items: stretch;
+}
+
+.forumPreview td,
+.forumPreview th {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.forumPreview th {
+    font-size: small;
+}
+
+.divForum {
+    border-right: 3px solid #012840;
+
+
+}
+
+.aba {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    border-bottom: 3px solid #012840;
+}
+
+.teste {
+    display: flex;
+    background-color: #FFFFFF;
+    width: 100px;
+    margin: 0px;
+    font-size: large;
+    border-top-right-radius: 10px;
+    padding: 5px;
+    background-color: #024873;
+    color: #FFFFFF;
+    justify-content: center;
+    margin-top: 200px;
+
+}
+iframe{
+    width: 100%;
+    height: auto;
+}
+
+
+
+@media (min-width: 761px)(max-width: 1020px) {
+
+    .forumPreview td,
+    .forumPreview th {
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+    }
+}
+@media (max-width: 760px) {
+    .divForum{
+        border-bottom: solid 3px #012840;
+    }
+    iframe{
+        width: auto;
+        height: 100%;
+    }
+
+}
